@@ -33,7 +33,7 @@
 		<key>MinimumVersion</key>
 		<string>1.0.0</string>
 		<key>ParentRecipe</key>
-		<string>com.github.Lotusshaney.pkg.citrixworkspace</string>
+		<string>com.github.rtrouton.pkg.citrixworkspace</string>
 		<key>Process</key>
 		<array>
 			<dict>
@@ -60,8 +60,6 @@
 			<dict>
 				<key>Arguments</key>
 				<dict>
-					<key>pkg_path</key>
-					<string>%RECIPE_CACHE_DIR%/%NAME%-%version%.pkg</string>
 					<key>repo_subdirectory</key>
 					<string>%MUNKI_REPO_SUBDIR%</string>
 				</dict>
